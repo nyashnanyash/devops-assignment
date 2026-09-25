@@ -1,0 +1,29 @@
+{
+  "name": "devops-assignment",
+  "version": "1.0.0",
+  "description": "Animated personal portfolio for UMUTONIWASE Florence",
+  "scripts": {
+    "build": "esbuild src/app.jsx --bundle --outfile=dist/app.js",
+    "watch": "esbuild src/app.jsx --bundle --outfile=dist/app.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyashnanyash/devops-assignment.git"
+  },
+  "keywords": [],
+  "author": "UMUTONIWASE Florence",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nyashnanyash/devops-assignment/issues"
+  },
+  "homepage": "https://github.com/nyashnanyash/devops-assignment#readme",
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-icons-kit": "^2.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
